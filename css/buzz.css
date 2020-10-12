@@ -57,7 +57,7 @@
   .featured-button {
     background-color: inherit;
     color: #00028c;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     border: 0;
     height: 60px;
     opacity: 0.3;
@@ -71,7 +71,7 @@
     background-color: #00028c;
     border-radius: 100%;
     color: #f9fd50;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     font-weight: bold;
     height: 60px;
     opacity: 1;
@@ -100,11 +100,11 @@
   padding: 5% 10%;
 }
 .article a {
-  font-size: 1.55rem;
+  font-size: 1.55em;
   color: #00028c;
 }
 .article p {
-  font-size: 1rem;
+  font-size: 1em;
   margin: 0;
 }
 .article-img {
