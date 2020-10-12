@@ -1,0 +1,82 @@
+/* containers */
+.photo-container-left {
+  background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0, 0.65), rgba(0,0,0, 0.25), rgba(0,0,0, 0));
+  color: #f9fd50;
+  padding: 11%;
+}
+.light {
+  padding: 11%;
+  text-align: right;
+}
+.dark {
+  background-color: #191970;
+  color: #f9fd50;
+  padding: 11%;
+}
+/* elements */
+h1 {
+  text-align: inherit;
+}
+p {
+  color: inherit;
+}
+.buzz-text a {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+.mind {
+  text-align: left;
+}
+.mind-img {
+  height: 80%;
+  object-fit: contain;
+  width: 80%;
+}
+.facilities {
+  border: 3px solid #f9fd50;
+  border-radius: 100%;
+  display: block;
+  margin: 8% auto;
+  object-fit: cover;
+  width: 80%;
+}
+.gallery {
+  border: 3px solid #00028c;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+/* parallax */
+.our-story {
+  background-image: url("/Users/nighilanirudh/Downloads/Coding and web development/NM/National Model Website/CBSE/images/soh.jpg");
+}
+.the-body {
+  background-image: url("https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&w=1000&q=80");
+}
+/* carousel */
+.carousel-item {
+  padding: 30% 0 10%;
+}
+.buzz-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1% 10%;
+  text-align: center;
+}
+.buzz-1 {
+  background-image: url("https://image.freepik.com/free-vector/sunset-scenery-with-sea-palm-silhouette_116220-28.jpg");
+}
+.buzz-2 {
+  background-image: url("https://4.bp.blogspot.com/-fG9D2IdRNpA/XGso0zV7vbI/AAAAAAAACns/Aia8BVOeWMY38ICj65UynR510iumuD3qQCKgBGAs/w914-h514-p-k-no-nu/mountain-lake-nature-forest-landscape-scenery-4K-157.jpg");
+}
+.buzz-3 {
+  background-image: url("https://wallpapersite.com/images/pages/pic_h/18923.jpg");
+}
+.buzz-4 {
+  background-image: url("https://i.pinimg.com/564x/eb/49/e5/eb49e5a5ab67740df2b5bed8ddb153de.jpg");
+}
+.buzz-5 {
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/11/anime-cityscape-landscape-scenery-4k_1541975011.jpg");
+}
+.carousel-control-prev, .carousel-control-next {
+  opacity: 1;
+}

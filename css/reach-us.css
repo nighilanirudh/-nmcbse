@@ -1,0 +1,12 @@
+p {
+  margin: 0;
+}
+.maps {
+  height: 300px;
+  text-align: center;
+}
+.dotted {
+  border-top: 5px dotted rgba(0,2,140, 0.6);
+  margin: auto;
+  width: 10%;
+}

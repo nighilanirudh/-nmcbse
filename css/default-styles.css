@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* CSS Document */
+  /* Html Element Defaults */
+  body {
+    background-color: #edf7fa;
+    color: #00028c
+  }
+  h1, h2, h3, h4, h5 {
+    color: inherit;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 2% 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  h5 {
+    font-size: 1.75rem
+  }
+  p {
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.25rem;
+    opacity: 0.75;
+    margin: 2% 0;
+  }
+  a {
+    color: inherit;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.25rem;
+  }
+  a:hover {
+    color: inherit;
+    opacity: 0.75
+  }
+  hr {
+    border-top: 1.5px solid #00028c;
+    margin: 0;
+    opacity: 0.45;
+  }
+/* Common Classes */
+  .cursive {
+    font-family: 'Dancing Script', cursive;
+  }
+  .no-padding {
+    padding: 0;
+  }
+  .parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .btn-yellow {
+    background-color: #f9fd50;
+    color: #00028c;
+    margin: 3% 0;
+  }
+/* page head */
+  .page-head {
+    background-image: url("/Users/nighilanirudh/Downloads/Coding and web development/NM/National Model Website/CBSE/images/cbse-new-block.jpg");
+    color: #f9fd50;
+  }
+  .overlay-blue {
+    background-color: rgba(25, 25, 112, 0.4);
+    padding: 12% 0 3%;
+  }
+/* content */
+  .content-light {
+   background-color: rgba(221,249,260, 1);
+   padding: 2% 5%;
+  }
+  .content-normal {
+   background-color: #d3f4ff;
+   padding: 2% 5%;
+  }
+/* top navigation bar */
+  .top-bar {
+    background-color: rgb(25, 25, 112);
+    color: #f9fd50;
+  }
+  /* logo */
+  .navbar-brand {
+    background-color: #191970;
+    margin: 0 7%;
+  }
+  /* toggle button */
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249,253,80, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler {
+    border-color: inherit;
+  }
+  /* items */
+  .top-bar-item, .top-bar-dropdown {
+    color: inherit;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    opacity: 0.75;
+    position: relative;
+  }
+  .top-bar-item:hover, .top-bar-dropdown:hover {
+    background-color: rgba(25, 25, 112, 0.6);
+    color: inherit;
+    opacity: 1;
+  }
+  .top-bar-item:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f9fd50;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  .top-bar-item:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  .dropdown-item {
+    text-align: center;
+  }
+  /* dropdown on hover */
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  /* current page */
+  .current, .current:hover {
+    background-color: inherit;
+    color: #f9fd50;
+    font-size: 1rem;
+    opacity: 1;
+  }
+
+  /* Footer */
+  #footer {
+    background-color: #191970;
+    color: #f9fd50;
+    padding: 3% 10%;
+    text-align: center;
+  }
+  .address p {
+    color: inherit;
+    margin: 0;
+    opacity: 1;
+  }
+  .social {
+    padding: 3% 0 0;
+  }
+  .social a {
+    font-size: 2rem;
+    padding: 2%;
+  }
+  .copyright p {
+    color: inherit;
+    font-size: 0.8rem;
+    opacity: 0.5;
+    text-align: center;
+  }
+  /* Mobile Config */
+  @media (max-width:767px){
+    .maps {
+      height: 250px;
+    }
+    .address img {
+      width: 100%;
+    }
+  }
+  /* Tablet config */
+  @media (min-width:768px) and (max-width: 991px){
+    .maps {
+      height: 250px;
+      padding: 0 15%;
+    }
+    .address img {
+      width: 80%;
+    }
+  }
+  /* Desktop Config */
+  @media (min-width:992px) {
+    .address img {
+      width: 100%;
+    }
+  }

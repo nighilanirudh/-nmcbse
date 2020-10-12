@@ -1,0 +1,123 @@
+/* Page head adjustmnts */
+  .page-head {
+    height: auto;
+  }
+/* featured */
+  body, html, .col-lg-4 {
+    height: 100%;
+  }
+  .featured {
+    background-color: #d3f4ff;
+    height: 85%;
+    padding: 2% 5%;
+  }
+  .row {
+    height: 100%;
+  }
+  /* info */
+  .date {
+    background-color: #f0efef;
+    color: black;
+    height: 53px;
+    margin: 5% 0;
+    width: 53px;
+  }
+  h5 {
+    font-weight: bold;
+    margin: 0;
+  }
+  h6 {
+    margin: 0;
+    opacity: 0.7;
+    text-align: center;
+  }
+  .featured-heading {
+    height: 20%;
+    text-align: left;
+  }
+  .featured-desc {
+    height: 40%;
+    padding-right: 10%;
+    text-align: justify;
+  }
+  /* image */
+  .featured-image {
+    background-image: url("https://images.hdqwalls.com/download/colorful-niagara-falls-ap-7680x4320.jpg");
+    background-size: cover;
+  }
+  /* buttons */
+  .button-container {
+    height: 15%;
+    padding-top: 5%;
+  }
+  .button-container-mobile {
+    display: none;
+    text-align: center;
+  }
+  .featured-button {
+    background-color: inherit;
+    color: #00028c;
+    font-size: 1.25rem;
+    border: 0;
+    height: 60px;
+    opacity: 0.3;
+    width: 60px;
+  }
+  .featured-button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .selected {
+    background-color: #00028c;
+    border-radius: 100%;
+    color: #f9fd50;
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 60px;
+    opacity: 1;
+    width: 60px;
+  }
+  @media (max-width: 991px) {
+    .featured {
+      height: auto;
+    }
+    .date {
+      margin: 0;
+    }
+    .featured-image {
+      height: 350px;
+      margin: 3% 0;
+    }
+    .button-container {
+      display: none;
+    }
+    .button-container-mobile {
+      display: block;
+    }
+  }
+/* articles */
+.articles-container {
+  padding: 5% 10%;
+}
+.article a {
+  font-size: 1.55rem;
+  color: #00028c;
+}
+.article p {
+  font-size: 1rem;
+  margin: 0;
+}
+.article-img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+}
+/* Mobile and Tablet Config */
+@media (max-width:991px){
+  .article-img {
+    max-height: 350px;
+    object-fit: cover;
+    padding: 3% 0;
+    width: 100%;
+  }
+}
