@@ -172,6 +172,9 @@
   }
   /* Mobile Config */
   @media (max-width:767px){
+    body {
+      font-size: 2em
+    }
     .maps {
       height: 250px;
     }
@@ -181,6 +184,9 @@
   }
   /* Tablet config */
   @media (min-width:768px) and (max-width: 991px){
+    body {
+      font-size: 1.5em
+    }
     .maps {
       height: 250px;
       padding: 0 15%;
